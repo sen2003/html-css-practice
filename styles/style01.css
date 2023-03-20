@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+}
+
+nav {
+    background-color: black;
+    font-size: 0;
+    /*去除選單之間多餘的空白*/
+    text-align: center;
+    /*置中*/
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    /*文字不要有裝飾*/
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 30px;
+    background-color: black;
+    transition: 0.5s;
+
+}
+
+nav a:hover {
+    background-color: blueviolet;
+    /*碰到變色*/
+}
+
+p {
+    color: gray;
+    margin-bottom: 30px;
+}
